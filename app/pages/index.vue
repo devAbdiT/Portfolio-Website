@@ -76,9 +76,9 @@ const featuredProjects = projects.slice(0, 2); // Show first 2 projects
       >
         <div style="flex: 1; min-width: 300px">
           <p style="line-height: 1.8; color: #444; margin-bottom: 1rem">
-            I'm a passionate web developer with 3+ years of experience building
-            web applications. I specialize in Vue.js and Nuxt, creating
-            responsive and user-friendly interfaces.
+            I'm a junior frontend developer passionate about building clean and
+            responsive web interfaces. I enjoy learning new technologies and
+            turning ideas into reality through code.
           </p>
           <p style="line-height: 1.8; color: #444">
             When I'm not coding, you can find me exploring new technologies,
