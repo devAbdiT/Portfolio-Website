@@ -52,7 +52,7 @@
           color: #666;
         "
       >
-        <p>© 2024 My Portfolio. All rights reserved.</p>
+        <p>© 2026 My Portfolio. All rights reserved.</p>
       </div>
     </div>
   </footer>
