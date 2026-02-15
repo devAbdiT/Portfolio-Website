@@ -1,75 +1,63 @@
-# Nuxt Minimal Starter
+# Personal Portfolio Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple personal portfolio website built with Nuxt 3 to showcase my projects and skills as a junior frontend developer.
 
-## Setup
+## 🚀 Live Demo
 
-Make sure to install dependencies:
+[Add your deployed site link here]
+
+## 📋 About The Project
+
+This is a personal portfolio website that introduces me, shows my projects, and provides a way to contact me. It's built with Nuxt 3 and features a clean, responsive design.
+
+### Features:
+
+- **Home Page** - Hero section with introduction and featured projects
+- **Projects Page** - List of all my projects with descriptions
+- **Project Details Page** - Individual pages for each project with more information
+- **Contact Page** - Simple contact form
+- **Responsive Design** - Works on desktop, tablet, and mobile
+
+## 🛠️ Built With
+
+- [Nuxt 3](https://nuxt.com/) - Vue.js Framework
+- [Vue.js](https://vuejs.org/) - JavaScript Framework
+- HTML5 & CSS3 - Styling
+- JavaScript - Functionality
+
+## 📁 Project Structure
+
+simple-portfolio/
+├── app/
+│ ├── components/
+│ │ ├── Navbar.vue
+│ │ ├── Footer.vue
+│ │ └── ProjectCard.vue
+│ ├── data/
+│ │ └── projects.js
+│ ├── layouts/
+│ │ └── default.vue
+│ ├── pages/
+│ │ ├── index.vue
+│ │ ├── contact.vue
+│ │ └── projects/
+│ │ ├── index.vue
+│ │ └── [id].vue
+│ └── app.vue
+├── public/
+├── nuxt.config.ts
+└── package.json
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
